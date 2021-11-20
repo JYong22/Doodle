@@ -2,7 +2,7 @@ import './App.css';
 import Doodle from './doodle';
 import Axios from 'axios';
 import React, {useEffect, useState} from 'react';
-let url = `http://${window.location.hostname}`
+let url = `http://35.238.9.16`
 
 
 function App() {
