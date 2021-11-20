@@ -1,0 +1,162 @@
+*{
+  box-sizing: border-box;
+}
+#App{
+
+    min-width: 50%;
+    min-height: 50%;
+  
+    width: 1920px;
+    height: 1480px;
+    background: rgb(255, 255, 255);
+  
+}
+
+#welcomeMessage{
+  display: block;
+}
+
+#header{
+
+  display: flex;
+  flex-direction: row;
+
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+
+}
+#header_App{
+  margin-Left: 2%;
+}
+
+#header_Login{
+  display: block;
+}
+#header_Name{
+  display:none;
+}
+#header_Login:hover{
+  cursor: pointer;
+}
+
+#header_Guest{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+#header_Guest:hover{
+  cursor: pointer;
+}
+
+#header_SpaceAL{
+  flex-grow: 2;
+}
+
+#header_CloseDoodle:hover{
+  cursor: pointer;
+}
+
+#header_bottom{
+
+  display: none;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+}
+#header_spaceNS{
+  flex-grow: 1;
+}
+#header_signout:hover{
+  cursor: pointer;
+}
+
+
+#welcomeMessage{
+  font-size: 98px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+
+}
+#loginForm{
+  margin: 1%;
+  display: none;
+  padding: 10px;
+
+  border: 2px solid black;
+}
+
+
+#guestForm{
+  margin: 1%;
+  display: none;
+  padding: 10px;
+
+  border: 2px solid black;
+
+}
+
+#cards_border{
+  margin: 1%;
+  padding: 10px;
+
+  border: 2px solid black;
+}
+
+
+#cards_container{
+  margin-top: 1%;
+
+  display:  grid;
+  grid-template-columns: repeat(7, 1fr);
+
+  gap: 10px;
+  padding: 10px;
+}
+
+.doodle_cards{
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  height: 275px;
+  width: 200px;
+  border: 2px solid black;
+
+  font-size: 48;
+  color: #222222;
+
+  position: relative;
+}
+
+#admin_page{
+  
+  margin: 1%;
+  display: none;
+  padding: 10px;
+
+  border: 2px solid black;
+}
+
+#doodle_container{
+  margin: 1%;
+
+  display:  grid;
+
+  gap: 10px;
+  padding: 10px;
+  
+  border: 2px solid black;
+}
+
+.doodle_delete{
+  color: red;
+  position: absolute;
+  align-self: center;
+  width: 80%;
+  height: 10%;
+  bottom: 1%;
+}
