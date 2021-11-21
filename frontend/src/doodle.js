@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import Axios from 'axios';
 
-let url = `http://35.238.9.16`
+let url = `http://${window.location.hostname}`;
 
 
 //Header Bar at the top of the page
