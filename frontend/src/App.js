@@ -36,7 +36,7 @@ function App() {
   //login function
   function login(){
     return( //when logged in then the header and admin functionalities are visible
-      loginData.map((val) =>{
+      loginData.forEach((val) =>{
         if (val.loggedIn == "1"){
           document.getElementById("header_bottom").style.display = "flex";
           document.getElementById("admin_page").style.display = "block";
